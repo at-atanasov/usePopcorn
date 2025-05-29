@@ -4,6 +4,8 @@ import ReactDOM from "react-dom/client";
 // import App from "./App";
 
 import StarRating from "./StarRating";
+import TextExpander from "./TextExpander";
+import AppExpander from "./TextExpander";
 
 function Test() {
   const [movieRating, setMovieRating] = useState(0);
@@ -30,5 +32,6 @@ root.render(
       defaultRating={3}
     ></StarRating>
     <Test />
+    <AppExpander />
   </React.StrictMode>
 );
